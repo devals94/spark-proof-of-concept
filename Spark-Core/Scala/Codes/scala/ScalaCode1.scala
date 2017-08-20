@@ -1,0 +1,6 @@
+val MatchData = sc.textFile("/project/MatchNew")
+val SplitData = MatchData.map(line => line.split(","))
+val SampleData = SplitData.map( x => (x(4)) )
+val ReduceData = SampleData.map( x => (x,1) ).reduceByKey(_+_)
+val SortData = ReduceData.sortByKey(ascending = true)
+SortData.collect()
