@@ -1,0 +1,3 @@
+//2.To determine the candidates with lowest votes.
+
+[(44, u'RISHI RAM'), (52, u'SANJAY KUMAR'), (55, u'BABITA'), (63, u'UDAI BHAN SRIVASTAVA'),(75, u'SHARAD KHARE')]
