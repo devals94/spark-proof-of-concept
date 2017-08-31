@@ -1,0 +1,3 @@
+UP2017data = sc.textFile("/project/UpAssembly").map(lambda line : line.split(","))
+candidatesMaxVotes = UP2017data.map(lambda line: ((int(line[7])),line[5]))
+candidatesMaxVotes.sortByKey(False).take(5)
