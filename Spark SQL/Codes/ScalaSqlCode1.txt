@@ -1,0 +1,4 @@
+//1.To determine movies with maximum budget.
+
+val movieBudget = sqlContext.sql(" SELECT movie_title, budget FROM IMDB")
+movieBudget.sort(movieBudget("budget").desc).show(false)
