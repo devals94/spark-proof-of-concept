@@ -1,0 +1,25 @@
++-----------------------------------------+-----------+
+|movie_title |budget |
++-----------------------------------------+-----------+
+|The Host |12215500000								  |
+|Lady Vengeance |4200000000 |
+|Fateless |2500000000 |
+|Princess Mononoke |2400000000 |
+|Steamboy |2127519898 |
+|Akira |1100000000 |
+|Godzilla 2000 |1000000000 |
+|Kabhi Alvida Naa Kehna |700000000 |
+|Tango |700000000 |
+|Kites |600000000 |
+|Red Cliff |553632000 |
+|The Legend of Suriyothai |400000000 |
+|The Messenger: The Story of Joan of Arc |390000000 |
+|Pirates of the Caribbean: At World's End |300000000 |
+|Ong-bak 2 |300000000 |
+|John Carter |263700000 |
+|Tangled |260000000 |
+|Spider-Man 3 |258000000 |
+|Spider-Man 3 |258000000 |
+|The Hobbit: The Battle of the Five Armies|250000000 |
++-----------------------------------------+-----------+
+only showing top 20 rows
