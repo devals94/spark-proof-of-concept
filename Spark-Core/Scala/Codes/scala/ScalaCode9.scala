@@ -6,8 +6,7 @@ val StadiumSortData = StadiumReduceData.sortByKey(ascending = false)
 val TotalMatchesAtStadium = StadiumSortData.collect()
 
 val DataByRuns = SplitData.map( x => (x(5),(x(11))) )
-val FilteredByRuns = DataByRuns.filter( x => (x._2 != "by wickets" && x._2 != "Tie" && x._2 !=
-"No Result"))
+val FilteredByRuns = DataByRuns.filter( x => (x._2 != "by wickets" && x._2 != "Tie" && x._2 !="No Result"))
 val ReduceByRuns = FilteredByRuns.map( x => (x._1,1)).reduceByKey(_+_)
 val SortByRuns = ReduceByRuns.sortByKey( ascending = false)
 val CountByRuns = SortByRuns.collect()
