@@ -1,0 +1,22 @@
+//10.To determine winning percentage by bowling first at different stadiums.
+
+val MatchData = sc.textFile("/project/MatchNew")
+val SplitData = MatchData.map(line => line.split(","))
+val StadiumData = SplitData.map( x => (x(5),1) )
+val StadiumReduceData = StadiumData.reduceByKey(_+_)
+val StadiumSortData = StadiumReduceData.sortByKey(ascending = false)
+val TotalMatchesAtStadium = StadiumSortData.collect()
+
+val DataByWickets = SplitData.map( x => (x(5),(x(11))) )
+val FilteredByWickets = DataByWickets.filter( x => (x._2 != "by runs" && x._2 != "Tie" && x._2!= "No Result"))
+val ReduceByWickets = FilteredByWickets.map( x => (x._1,1)).reduceByKey(_+_)
+val SortByWickets = ReduceByWickets.sortByKey( ascending = false)
+val CountByWickets = SortByWickets.collect()
+
+val TotalMatchSample = sc.parallelize(TotalMatchesAtStadium)
+val CountByWicketsSample = sc.parallelize(CountByWickets)
+val JoinBowlingData = CountByWicketsSample.join(TotalMatchSample)
+val MapBowlingData = JoinBowlingData.map(x=>(x._1,(x._2._1*100/x._2._2)))
+val SwapBowlingData = MapBowlingData.map( item => item.swap)
+val SortBowlingData = SwapBowlingData.sortByKey( ascending = false)
+val ResultBowlingData = SortBowlingData.collect.foreach(println)
