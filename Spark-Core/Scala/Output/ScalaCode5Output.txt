@@ -1,0 +1,4 @@
+//5.To determine total number of matches won by every team.
+
+res3: Array[(String, Int)] = Array(("",3), (1,68), (10,12), (11,34), (12,5), (13,9), (2,70),
+(3,79), (4,63), (5,63), (6,56), (7,80), (8,29), (9,6))
