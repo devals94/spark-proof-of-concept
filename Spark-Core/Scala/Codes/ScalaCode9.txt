@@ -1,0 +1,22 @@
+//9.To determine winning percentage by batting first at different stadiums.
+
+val MatchData = sc.textFile("/project/MatchNew")
+val SplitData = MatchData.map(line => line.split(","))
+val StadiumData = SplitData.map( x => (x(5),1) )
+val StadiumReduceData = StadiumData.reduceByKey(_+_)
+val StadiumSortData = StadiumReduceData.sortByKey(ascending = false)
+val TotalMatchesAtStadium = StadiumSortData.collect()
+
+val DataByRuns = SplitData.map( x => (x(5),(x(11))) )
+val FilteredByRuns = DataByRuns.filter( x => (x._2 != "by wickets" && x._2 != "Tie" && x._2 !="No Result"))
+val ReduceByRuns = FilteredByRuns.map( x => (x._1,1)).reduceByKey(_+_)
+val SortByRuns = ReduceByRuns.sortByKey( ascending = false)
+val CountByRuns = SortByRuns.collect()
+
+val TotalMatchSample = sc.parallelize(TotalMatchesAtStadium)
+val CountByRunsSample = sc.parallelize(CountByRuns)
+val JoinBattingData = CountByRunsSample.join(TotalMatchSample)
+val MapBattingData = JoinBattingData.map(x=>(x._1,(x._2._1*100/x._2._2)))
+val SwapBattingData = MapBattingData.map( item => item.swap)
+val SortBattingData = SwapBattingData.sortByKey( ascending = false)
+val ResultBattingData = SortBattingData.collect.foreach(println)
