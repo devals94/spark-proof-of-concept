@@ -1,0 +1,4 @@
+//4. To determine total number of matches played by every team.
+
+res2: Array[(String, Int)] = Array((1,62), (10,23), (11,30), (12,7), (13,9), (2,78), (3,74),
+(4,65), (5,52), (6,69), (7,62), (8,39), (9,7))
