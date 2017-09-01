@@ -1,0 +1,4 @@
+//3.To determine the decision on winning the toss and how many times batting and fielding were
+selected on winning toss from season1 to season 9.
+
+res1: Array[(String, Int)] = Array((field,315), (bat,262))
