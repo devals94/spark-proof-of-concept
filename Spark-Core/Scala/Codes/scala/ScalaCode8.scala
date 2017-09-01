@@ -1,0 +1,7 @@
+val SampleData = SplitData.map( x => (x(5),(x(11))) )
+val FilteredByWickets = SampleData.filter( x => (x._2 != "by runs" && x._2 != "Tie" && x._2 !=
+"No Result"))
+val ReduceByWickets = FilteredByWickets.map( x => (x._1,1)).reduceByKey(_+_)
+val SwapByWickets = ReduceByWickets.map( item => item.swap)
+val SortByWickets = SwapByWickets.sortByKey( ascending = false)
+val CountByWickets = SortByWickets.collect.foreach(println)
