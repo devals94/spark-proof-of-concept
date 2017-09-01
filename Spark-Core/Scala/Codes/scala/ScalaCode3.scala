@@ -1,0 +1,5 @@
+val MatchData = sc.textFile("/project/MatchNew")
+val SplitData = MatchData.map(line => line.split(","))
+val SampleData = SplitData.map( x => (x(7)) )
+val ReduceData = SampleData.map( x => (x,1) ).reduceByKey(_+_)
+ReduceData.collect()
