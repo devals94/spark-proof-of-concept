@@ -1,0 +1,14 @@
+//4.To determine number of Congress Candidates(INC) allotted with respect to district.
+
+[(u'Varanasi', 4), (u'Unnao', 2), (u'Sultanpur', 1), (u'Sonbhadra', 1), (u'Sitapur', 1),
+(u'Siddharthnagar', 1), (u'Shamli', 1), (u'Shahjahanpur', 1), (u'Sambhal', 1), (u'Saharanpur',5), 
+(u'Rampur', 1), (u'Raebareli', 6), (u'Pratapgarh', 2), (u'Pilibhit', 1),
+(u'Muzaffarnagar', 1), (u'Mirzapur', 1), (u'Meerut', 2), (u'Mau', 1), (u'Mathura', 4),
+(u'Maharajganj', 3), (u'Lucknow', 2), (u'Lalitpur', 1), (u'Lakhimpur Kheri', 2),
+(u'Kushinagar', 2), (u'Kaushambi', 1), (u'Kanpur Nagar', 6), (u'Kanpur Dehat', 1), 
+(u'Jhansi',1), (u'Jaunpur', 2), (u'Jalaun', 2), (u'Hathras', 1), (u'Hardoi', 1), (u'Hapur', 1),
+(u'Hamirpur', 1), (u'Gorakhpur', 3), (u'Gonda', 1), (u'Ghazipur', 1), (u'Ghaziabad', 3),
+(u'Gautam Buddha Nagar', 1), (u'Fatehpur', 3), (u'Deoria', 1), (u'Chitrakoot', 1),
+(u'Bulandshahr', 3), (u'Budaun', 1), (u'Bijnor', 3), (u'Basti', 2), (u'Bareilly', 3),
+(u'Barabanki', 1), (u'Banda', 3), (u'Balarampur', 2), (u'Bahraich', 3), (u'Baghpat', 1),
+(u'Amethi', 4), (u'Allahabad', 4), (u'Aligarh', 3), (u'Agra', 3)]
