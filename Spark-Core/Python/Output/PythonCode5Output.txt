@@ -1,0 +1,27 @@
+//5.To determine number of Congress Candidates(INC) allotted with respect to Assembly Constituency.
+
+[(u'Zaidpur (SC)', 1), (u'Varanasi South', 1), (u'Varanasi North', 1), (u'Varanasi Cantt.',1), 
+(u'Unchahar', 1), (u'Tulsipur', 1), (u'Tindwari', 1), (u'Tiloi', 1), (u'Tilhar', 1),
+(u'Tamkuhi raj', 1), (u'Syana', 1), (u'Soraon (SC)', 1), (u'Shohratgarh', 1), (u'Shikarpur',1), 
+(u'Shamli', 1), (u'Sareni', 1), (u'Sandi (SC)', 1), (u'Salon (SC)', 1), (u'Sahibabad', 1),
+(u'Saharanpur', 1), (u'Rudrapur', 1), (u'Rudhauli', 1), (u'Rath (SC)', 1), (u'Rampur maniharan(SC)', 1), 
+(u'Rampur khas', 1), (u'Rae bareli', 1), (u'Purqazi (SC)', 1), (u'Pindra', 1),
+(u'Pharenda', 1), (u'Payagpur', 1), (u'Paniyara', 1), (u'Palia', 1), (u'Padrauna', 1),
+(u'Nehtaur (SC)', 1), (u'Naraini (SC)', 1), (u'Nanpara', 1), (u'Nakur', 1), (u'Muradnagar',1), 
+(u'Mungra badshahpur', 1), (u'Mohan (SC)', 1), (u'Mohammdi', 1), (u'Mohammadabad', 1),
+(u'Mehroni (SC)', 1), (u'Meerut South', 1), (u'Meerut Cantt.', 1), (u'Meerganj', 1),
+(u'Mathura', 1), (u'Marihan', 1), (u'Mant', 1), (u'Manikpur', 1), (u'Mahsi', 1),
+(u'Maharajpur', 1), (u'Maharajganj (SC)', 1), (u'Madhuban', 1), (u'Madhaugarh', 1), 
+(u'Lucknowcentral', 1), (u'Lucknow East', 1), (u'Laharpur', 1), (u'Koraon (SC)', 1), (u'Koil', 1),
+(u'Kidwai Nagar', 1), (u'Khurja (SC)', 1), (u'Kheragarh', 1), (u'Khajni (SC)', 1), (u'Khaga(SC)', 1), 
+(u'Kaptanganj', 1), (u'Kanpur Cantt.', 1), (u'Kalpi', 1), (u'Kadipur (SC)', 1),
+(u'Jhansi Nagar', 1), (u'Jaunpur', 1), (u'Jagdishpur (SC)', 1), (u'Iglas (SC)', 1),
+(u'Husainganj', 1), (u'Hathras (SC)', 1), (u'Harchandpur', 1), (u'Hapur (SC)', 1),
+(u'Govindnagar', 1), (u'Goverdhan', 1), (u'Gorakhpur urban', 1), (u'Ghaziabad', 1),
+(u'Ghatampur (SC)', 1), (u'Gauriganj', 1), (u'Gaura', 1), (u'Gangoh', 1), (u'Duddhi (SC)', 1),
+(u'Dataganj', 1), (u'Dadri', 1), (u'Chandpur', 1), (u'Chandausi (SC)', 1), (u'Chail', 1),
+(u'Caimpiyarganj', 1), (u'Bishwavnathganj', 1), (u'Bisalpur', 1), (u'Binkdi', 1),
+(u'Bilaspur', 1), (u'Bhognipur', 1), (u'Bhagwantnagar', 1), (u'Behat', 1), (u'Barhapur', 1),
+(u'Barelly Cantt.', 1), (u'Bareilly', 1), (u'Barauli', 1), (u'Bara (SC)', 1), (u'Banda', 1),
+(u'Balrampur (SC)', 1), (u'Baldev (SC)', 1), (u'Baghpat', 1), (u'Bachhrawan (SC)', 1), (u'Arya
+Nagar', 1), (u'Amethi', 1), (u'Allahabad North', 1), (u'Agra South', 1), (u'Agra Rural (SC)',1)]
