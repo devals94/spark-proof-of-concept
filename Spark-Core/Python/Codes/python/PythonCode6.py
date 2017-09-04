@@ -1,0 +1,4 @@
+UP2017data = sc.textFile("/project/UpAssembly").map(lambda line : line.split(","))
+candidatesCount = UP2017data.filter(lambda line: line[4]=='Saharanpur').map(lambda line:((line[6],line[4]),1))
+partyCandidatesCountofSaharanpur = candidatesCount.reduceByKey(lambda a,b: a+b)
+partyCandidatesCountofSaharanpur.sortByKey(False).collect()
