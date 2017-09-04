@@ -1,0 +1,5 @@
+//6. Total candidates allotted with respect to different parties at Saharanpur District Level.
+
+[((u'others', u'Saharanpur'), 25), ((u'SP', u'Saharanpur'), 3), ((u'RLD', u'Saharanpur'), 7),
+((u'None of the Above', u'Saharanpur'), 7), ((u'Independent', u'Saharanpur'), 26), ((u'INC',
+u'Saharanpur'), 5), ((u'BSP', u'Saharanpur'), 7), ((u'BJP+', u'Saharanpur'), 7)]
