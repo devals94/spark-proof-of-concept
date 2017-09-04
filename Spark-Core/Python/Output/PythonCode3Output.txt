@@ -1,0 +1,4 @@
+//3.To determine total candidates allotted by different parties.
+
+[(u'others', 1883), (u'SP', 311), (u'RLD', 277), (u'None of the Above', 403), (u'Independent',
+1462), (u'INC', 114), (u'BSP', 403), (u'BJP+', 403)]
