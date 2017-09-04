@@ -1,0 +1,6 @@
+//3.To determine total candidates allotted by different parties.
+
+UP2017data = sc.textFile("/project/UpAssembly").map(lambda line : line.split(","))
+candidatesCount = UP2017data.map(lambda line: ((line[6]),1))
+candidatesCountByParties = candidatesCount.reduceByKey(lambda a,b: a+b)
+candidatesCountByParties.sortByKey(False).collect()
