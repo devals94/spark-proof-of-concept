@@ -1,0 +1,17 @@
+//2.To determine the movies with maximum Facebook likes.
+
++----------------------------------+--------------------+
+|movie_title                       |movie_facebook_likes|
++----------------------------------+--------------------+
+|Interstellar                      |349000              |
+|Django Unchained                  |199000              |
+|Batman v Superman: Dawn of Justice|197000              |
+|Mad Max: Fury Road                |191000              |
+|The Revenant                      |190000              |
+|Inception                         |175000              |
+|The Hobbit: An Unexpected Journey |166000              |
+|The Imitation Game                |165000              |
+|The Dark Knight Rises             |164000              |
+|The Martian                       |153000              |
++----------------------------------+--------------------+
+only showing top 10 rows
