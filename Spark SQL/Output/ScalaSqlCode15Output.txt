@@ -1,0 +1,17 @@
+//15.To determine the worst movies according to user reviews.
+
++------------------+----------+-----------+--------------------+
+|movie_title       |title_year|country    |num_user_for_reviews|
++------------------+----------+-----------+--------------------+
+|Ben-Hur           |2016      |USA        |1                   |
+|Top Cat Begins    |2015      |Mexico     |1                   |
+|Ramanujan         |2014      |India      |1                   |
+|Hands of Stone    |2016      |Panama     |1                   |
+|Operation Chromite|2016      |South Korea|1                   |
+|Barbecue          |2014      |France     |1                   |
+|Z Storm           |2014      |Hong Kong  |1                   |
+|Henry & Me        |2014      |USA        |1                   |
+|Barfi             |2013      |India      |1                   |
+|Deadline Gallipoli|null      |Australia  |1                   |
++------------------+----------+-----------+--------------------+
+only showing top 10 rows
