@@ -1,0 +1,4 @@
+//13.To determine movies with shortest runtime (duration).
+
+val movieRuntime = sqlContext.sql(" SELECT movie_title,  genres,  content_rating,  duration FROM IMDB")
+movieRuntime.filter( $"duration".isNotNull ).sort(movieRuntime("duration").asc).show(false)
