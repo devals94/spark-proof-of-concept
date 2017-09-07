@@ -1,0 +1,17 @@
+//7.To determine the movies, popular with respect to actor-3.
+
++--------------------------+--------------------+----------------------+
+|movie_title               |actor_3_name        |actor_3_facebook_likes|
++--------------------------+--------------------+----------------------+
+|The Dark Knight Rises     |Joseph Gordon-Levitt|23000                 |
+|Inception                 |Joseph Gordon-Levitt|23000                 |
+|X-Men: Days of Future Past|Hugh Jackman        |20000                 |
+|Avengers: Age of Ultron   |Scarlett Johansson  |19000                 |
+|The Avengers              |Scarlett Johansson  |19000                 |
+|The Prestige              |Scarlett Johansson  |19000                 |
+|The Other Boleyn Girl     |Benedict Cumberbatch|19000                 |
+|What Just Happened        |Kristen Stewart     |17000                 |
+|Dark Shadows              |Christopher Lee     |16000                 |
+|Cold Mountain             |Charlie Hunnam      |16000                 |
++--------------------------+--------------------+----------------------+
+only showing top 10 rows
