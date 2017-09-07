@@ -1,0 +1,4 @@
+//12.To determine movies with longest runtime (duration).
+
+val movieRuntime = sqlContext.sql(" SELECT movie_title,  genres,  content_rating,  duration FROM IMDB")
+movieRuntime.filter( $"duration".isNotNull ).sort(movieRuntime("duration").desc).show(false)
