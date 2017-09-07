@@ -1,0 +1,11 @@
+//9.To determine the net profit of movies.
+
+val movieGross = sqlContext.sql(" SELECT movie_title,gross,country FROM IMDB")
+
+val movieBudget = sqlContext.sql(" SELECT movie_title,title_year, budget FROM IMDB")
+
+val budgetJoinGross = movieBudget.join(movieGross,"movie_title")
+
+val netProfit = budgetJoinGross.select( budgetJoinGross("movie_title") , budgetJoinGross("title_year"),budgetJoinGross("country"),budgetJoinGross("budget"), budgetJoinGross("gross"),budgetJoinGross("budget")-budgetJoinGross("gross")as("Net-Profit") )
+
+val highestNetProfit = netProfit.sort(netProfit("Net-Profit").desc).show(10,false)
