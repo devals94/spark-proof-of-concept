@@ -46,3 +46,17 @@ Objective in Spark SQL with Scala is to determine:
 
 1. To determine movies with maximum budget.
 2. To determine the movies with maximum Facebook likes.
+3. To determine top 5 IMDB rating movies.
+4. To determine total number of movies released in different years.
+5. To determine the movies, popular with respect to actor-1.
+6. To determine the movies, popular with respect to actor-2.
+7. To determine the movies, popular with respect to actor-3.
+8. To determine the movies, popular with respect to the director.
+9. To determine the net profit of movies.
+10. To determine the worst movies according to critic reviews.
+11. To determine the best movies according to critic reviews.
+12. To determine movies with longest runtime (duration).
+13. To determine movies with shortest runtime (duration).
+14. To determine the best movies according to user reviews.
+15. To determine the worst movies according to user reviews.
+
