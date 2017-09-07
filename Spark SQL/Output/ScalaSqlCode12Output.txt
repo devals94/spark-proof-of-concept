@@ -1,0 +1,27 @@
+//12.To determine movies with longest runtime (duration).
+
++----------------------------+-------------------------------------+--------------+--------+
+|movie_title                 |genres                               |content_rating|duration|
++----------------------------+-------------------------------------+--------------+--------+
+|Trapped                     |Crime|Drama|Thriller                 |              |511     |
+|Carlos                      |Biography|Crime|Drama|Thriller       |Not Rated     |334     |
+|Blood In, Blood Out         |Crime|Drama                          |R             |330     |
+|Heaven's Gate               |Adventure|Drama|Western              |R             |325     |
+|The Legend of Suriyothai    |Action|Adventure|Drama|History|War   |R             |300     |
+|Das Boot                    |Adventure|Drama|Thriller|War         |R             |293     |
+|Apocalypse Now              |Drama|War                            |R             |289     |
+|The Company                 |Drama|History|Thriller               |              |286     |
+|Gods and Generals           |Drama|History|War                    |PG-13         |280     |
+|Gettysburg                  |Drama|History|War                    |PG            |271     |
+|Arn: The Knight Templar     |Action|Adventure|Drama|Romance|War   |              |270     |
+|Once Upon a Time in America |Crime|Drama                          |R             |251     |
+|Cleopatra                   |Biography|Drama|History|Romance      |Approved      |251     |
+|The Wolf of Wall Street     |Biography|Comedy|Crime|Drama         |R             |240     |
+|Gandhi                      |Biography|Drama|History              |PG            |240     |
+|Emma                        |Comedy|Drama|Romance                 |              |240     |
+|Dances with Wolves          |Adventure|Drama|Western              |PG-13         |236     |
+|Lawrence of Arabia          |Adventure|Biography|Drama|History|War|PG            |227     |
+|Gone with the Wind          |Drama|History|Romance|War            |G             |226     |
+|The Greatest Story Ever Told|Biography|Drama|History              |G             |225     |
++----------------------------+-------------------------------------+--------------+--------+
+only showing top 20 rows
