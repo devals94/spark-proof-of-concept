@@ -1,0 +1,4 @@
+//3.To determine top 5 IMDB rating movies.
+
+val movieRating = sqlContext.sql(" SELECT movie_title, imdb_score FROM IMDB")
+movieRating.sort(movieRating("imdb_score").desc).show(5,false)
