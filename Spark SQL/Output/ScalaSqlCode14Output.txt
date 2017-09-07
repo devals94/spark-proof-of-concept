@@ -1,0 +1,17 @@
+//14.To determine the best movies according to user reviews.
+
++-------------------------------------------------+----------+-----------+-------------------+
+|movie_title                                      |title_year|country   |num_user_for_reviews|
++-------------------------------------------------+----------+-----------+-------------------+
+|The Lord of the Rings: The Fellowship of the Ring|2001      |New Zealand|5060               |
+|The Dark Knight                                  |2008      |USA        |4667               |
+|The Shawshank Redemption                         |1994      |USA        |4144               |
+|The Matrix                                       |1999      |USA        |3646               |
+|Star Wars: Episode I - The Phantom Menace        |1999      |USA        |3597               |
+|Star Wars: Episode II - Attack of the Clones     |2002      |USA        |3516               |
+|The Blair Witch Project                          |1999      |USA        |3400               |
+|Star Wars: Episode III - Revenge of the Sith     |2005      |USA        |3286               |
+|The Lord of the Rings: The Return of the King    |2003      |USA        |3189               |
+|Avatar                                           |2009      |USA        |3054               |
++-------------------------------------------------+----------+-----------+-------------------+
+only showing top 10 rows
