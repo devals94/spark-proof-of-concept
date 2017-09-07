@@ -14,6 +14,12 @@ Objective in Spark-Core with Python is to determine:
 
 1. To determine the candidate with maximum votes.
 2. To determine the candidate with minimum votes.
+3. To determine total candidates allotted by different parties.
+4. To determine number of Congress Candidates (INC) allotted with respect to district.
+5. To determine number of Congress Candidates (INC) allotted with respect to Assembly Constituency.
+6. Total candidates allotted with respect to different parties at Saharanpur District Level.
+7. Total number of candidates allotted with respect to phases.
+8. Who got maximum votes in BJP+.
 
 # Spark-Core with Scala:
 It is shown on IPL Dataset.
