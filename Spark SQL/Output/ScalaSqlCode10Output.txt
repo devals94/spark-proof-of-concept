@@ -1,0 +1,17 @@
+//10.To determine the worst movies according to critic reviews.
+
++---------------------------------------------+----------+-------+----------------------+
+|movie_title                                  |title_year|country|num_critic_for_reviews|
++---------------------------------------------+----------+-------+----------------------+
+|Godzilla Resurgence                          |2016      |Japan  |1                     |
+|Harry Potter and the Deathly Hallows: Part II|2011      |UK     |1                     |
+|Ben-Hur                                      |2016      |USA    |1                     |
+|The Border                                   |null      |Poland |1                     |
+|10 Days in a Madhouse                        |2015      |USA    |1                     |
+|The Bold and the Beautiful                   |null      |USA    |1                     |
+|Barfi                                        |2013      |India  |1                     |
+|Down for Life                                |2009      |USA    |1                     |
+|The Secret                                   |null      |UK     |1                     |
+|The Opposite Sex                             |2014      |USA    |1                     |
++---------------------------------------------+----------+-------+----------------------+
+only showing top 10 rows
