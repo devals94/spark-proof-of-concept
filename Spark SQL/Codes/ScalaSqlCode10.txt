@@ -1,0 +1,7 @@
+//10.To determine the worst movies according to critic reviews.
+
+val reviews = sqlContext.sql(" SELECT movie_title, title_year, country, num_critic_for_reviews  FROM IMDB")
+	
+val criticReviews = reviews.filter( $"num_critic_for_reviews".isNotNull ).sort(reviews ("num_critic_for_reviews").asc)
+
+criticReviews.dropDuplicates().show(10,false)
