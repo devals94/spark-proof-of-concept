@@ -1,0 +1,4 @@
+//8.To determine the movies, popular with respect to the director.
+
+val movieDirector = sqlContext.sql(" SELECT movie_title ,director_name ,director_facebook_likes, imdb_score FROM IMDB")
+movieDirector.sort(movieDirector("director_facebook_likes").desc).show(false)
