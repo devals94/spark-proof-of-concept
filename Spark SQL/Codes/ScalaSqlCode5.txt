@@ -1,0 +1,4 @@
+//5.To determine the movies, popular with respect to actor-1.
+
+val Likes = sqlContext.sql(" SELECT movie_title , actor_1_name, actor_1_facebook_likes FROM IMDB")
+Likes.sort(Likes("actor_1_facebook_likes").desc).show(10,false)
