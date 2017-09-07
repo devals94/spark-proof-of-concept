@@ -10,7 +10,7 @@ Spark SQL with Scala.
 # Spark-Core with Python:
 It is shown on Uttar Pradesh Assembly Elections 2017 Dataset.
 
-Objective in Spark-Core with Python is to determine:
+Objective in Spark-Core with Python is:
 
 1. To determine the candidate with maximum votes.
 2. To determine the candidate with minimum votes.
@@ -24,7 +24,7 @@ Objective in Spark-Core with Python is to determine:
 # Spark-Core with Scala:
 It is shown on IPL Dataset.
 
-Objective in Spark-Core with Scala is to determine:
+Objective in Spark-Core with Scala is:
 
 1. To determine total number of matches played in every season.
 2. To determine number of matches played in a particular stadium.
@@ -42,7 +42,7 @@ at different stadiums.
 # Spark SQL with Scala:
 It is shown on IMDB Dataset.
 
-Objective in Spark SQL with Scala is to determine:
+Objective in Spark SQL with Scala is:
 
 1. To determine movies with maximum budget.
 2. To determine the movies with maximum Facebook likes.
