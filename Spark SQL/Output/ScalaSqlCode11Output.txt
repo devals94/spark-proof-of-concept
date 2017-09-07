@@ -1,0 +1,17 @@
+//11.To determine the best movies according to critic reviews.
+
++---------------------+----------+---------+----------------------+
+|movie_title          |title_year|country  |num_critic_for_reviews|
++---------------------+----------+---------+----------------------+
+|The Dark Knight Rises|2012      |USA      |813                   |
+|Prometheus           |2012      |USA      |775                   |
+|Django Unchained     |2012      |USA      |765                   |
+|Skyfall              |2012      |UK       |750                   |
+|Mad Max: Fury Road   |2015      |Australia|739                   |
+|Gravity              |2013      |UK       |738                   |
+|Man of Steel         |2013      |USA      |733                   |
+|Avatar               |2009      |USA      |723                   |
+|Interstellar         |2014      |USA      |712                   |
+|The Avengers         |2012      |USA      |703                   |
++---------------------+----------+---------+----------------------+
+only showing top 10 rows
