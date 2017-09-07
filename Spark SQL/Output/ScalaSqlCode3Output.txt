@@ -1,0 +1,12 @@
+//3.To determine top 5 IMDB rating movies.
+
++------------------------+----------+
+|movie_title             |imdb_score|
++------------------------+----------+
+|Towering Inferno        |9.5       |
+|The Shawshank Redemption|9.3       |
+|The Godfather           |9.2       |
+|Dekalog                 |9.1       |
+|Kickboxer: Vengeance    |9.1       |
++------------------------+----------+
+only showing top 5 rows
