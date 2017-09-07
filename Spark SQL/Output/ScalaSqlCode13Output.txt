@@ -1,0 +1,27 @@
+//13.To determine movies with shortest runtime (duration).
+
++------------------------------------+----------------------------------------+--------------+--------+
+|movie_title                         |genres                                  |content_rating|duration|
++------------------------------------+----------------------------------------+--------------+--------+
+|The Touch                           |Romance|Short                           |              |7       |
+|Shaun the Sheep                     |Animation|Comedy|Family                 |TV-G          |7       |
+|Robot Chicken                       |Animation|Comedy                        |TV-MA         |11      |
+|Vessel                              |Horror|Sci-Fi|Short|Thriller            |              |14      |
+|Wal-Mart: The High Cost of Low Price|Documentary                             |Not Rated     |20      |
+|10,000 B.C.                         |Comedy                                  |              |22      |
+|Sabrina, the Teenage Witch          |Comedy|Family|Fantasy                   |TV-G          |22      |
+|Strangers with Candy                |Comedy                                  |TV-14         |22      |
+|It's Always Sunny in Philadelphia   |Comedy                                  |TV-MA         |22      |
+|Home Movies                         |Animation|Comedy|Drama                  |TV-PG         |22      |
+|Rules of Engagement                 |Comedy|Romance                          |TV-PG         |22      |
+|Anger Management                    |Comedy|Romance                          |              |22      |
+|Star Wars: The Clone Wars           |Action|Adventure|Animation|Drama|Fantasy|TV-PG         |23      |
+|Sonny with a Chance                 |Comedy|Family|Romance                   |TV-G          |23      |
+|Yu-Gi-Oh! Duel Monsters             |Action|Adventure|Animation|Family|Fantasy|             |24      |
+|Lovesick                            |Comedy                                  |              |24      |
+|The Inbetweeners                    |Comedy|Romance                          |TV-14         |25      |
+|A Charlie Brown Christmas           |Animation|Comedy|Family                 |TV-G          |25      |
+|M*A*S*H                             |Comedy|Drama|War                        |TV-PG         |25      |
+|Bewitched                           |Comedy|Family|Fantasy                   |TV-G          |25      |
++------------------------------------+----------------------------------------+--------------+--------+
+only showing top 20 rows
