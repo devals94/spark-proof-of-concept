@@ -1,0 +1,5 @@
+//4.To determine total number of movies released in different years.
+
+val years = sqlContext.sql(" SELECT title_year FROM IMDB")
+val yearsCount = years.groupBy("title_year").count()
+yearsCount.sort(yearsCount("title_year").desc).show(false)
