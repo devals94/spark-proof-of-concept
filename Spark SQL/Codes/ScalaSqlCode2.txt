@@ -1,0 +1,4 @@
+//2.To determine the movies with maximum Facebook likes.
+
+val movieLikes = sqlContext.sql(" SELECT movie_title, movie_facebook_likes FROM IMDB")
+movieLikes.sort(movieLikes("movie_facebook_likes").desc).show(10,false)
