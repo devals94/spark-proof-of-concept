@@ -1,0 +1,7 @@
+//15.To determine the worst movies according to user reviews.
+
+val reviews = sqlContext.sql(" SELECT movie_title, title_year, country, num_user_for_reviews FROM IMDB")
+
+val userReviews = reviews.filter( $"num_user_for_reviews".isNotNull ).sort(reviews ("num_user_for_reviews").asc)
+
+userReviews.dropDuplicates().show(10,false)
