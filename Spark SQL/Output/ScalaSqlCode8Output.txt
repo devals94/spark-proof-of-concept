@@ -1,0 +1,27 @@
+//8.To determine the movies, popular with respect to the director.
+
++-----------------------------------+--------------------+-----------------------+----------+
+|movie_title                        |director_name       |director_facebook_likes|imdb_score|
++-----------------------------------+--------------------+-----------------------+----------+
+|Don Jon                            |Joseph Gordon-Levitt|23000                  |6.6       |
+|Inception                          |Christopher Nolan   |22000                  |8.8       |
+|The Prestige                       |Christopher Nolan   |22000                  |8.5       |
+|Interstellar                       |Christopher Nolan   |22000                  |8.6       |
+|Insomnia                           |Christopher Nolan   |22000                  |7.2       |
+|The Dark Knight Rises              |Christopher Nolan   |22000                  |8.5       |
+|The Dark Knight                    |Christopher Nolan   |22000                  |9.0       |
+|Batman Begins                      |Christopher Nolan   |22000                  |8.3       |
+|Memento                            |Christopher Nolan   |22000                  |8.5       |
+|Fight Club                         |David Fincher       |21000                  |8.8       |
+|Se7en                              |David Fincher       |21000                  |8.6       |
+|The Curious Case of Benjamin Button|David Fincher       |21000                  |7.8       |
+|Gone Girl                          |David Fincher       |21000                  |8.1       |
+|Alien 3                            |David Fincher       |21000                  |6.4       |
+|The Girl with the Dragon Tattoo    |David Fincher       |21000                  |7.8       |
+|Zodiac                             |David Fincher       |21000                  |7.7       |
+|The Social Network                 |David Fincher       |21000                  |7.7       |
+|The Game                           |David Fincher       |21000                  |7.8       |
+|Panic Room                         |David Fincher       |21000                  |6.8       |
+|The Curse of Downers Grove         |Derick Martini      |20000                  |4.5       |
++-----------------------------------+--------------------+-----------------------+----------+
+only showing top 20 rows
