@@ -1,0 +1,15 @@
++-------------------------------+-----------------+----------------------+
+|movie_title                    |actor_2_name     |actor_2_facebook_likes|
++-------------------------------+-----------------+----------------------+
+|The Final Destination          |Andrew Fiscella  |137000                |
+|What's Eating Gilbert Grape    |Leonardo DiCaprio|29000                 |
+|The Revenant                   |Tom Hardy        |27000                 |
+|Inception                      |Tom Hardy        |27000                 |
+|Alice in Wonderland            |Alan Rickman     |25000                 |
+|Alice in Wonderland            |Alan Rickman     |25000                 |
+|Alice Through the Looking Glass|Alan Rickman     |25000                 |
+|The Dark Knight Rises          |Christian Bale   |23000                 |
+|American Hustle                |Christian Bale   |23000                 |
+|Furious 7                      |Paul Walker      |23000                 |
++-------------------------------+-----------------+----------------------+
+only showing top 10 rows
