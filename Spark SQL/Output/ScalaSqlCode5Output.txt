@@ -1,0 +1,17 @@
+//5.To determine the movies, popular with respect to actor-1.
+
++-------------------------------------+---------------+----------------------+
+|movie_title                          |actor_1_name   |actor_1_facebook_likes|
++-------------------------------------+---------------+----------------------+
+|Anchorman: The Legend of Ron Burgundy|Darcy Donavan  |640000                |
+|Treachery                            |Matthew Ziff   |260000                |
+|Hardflip                             |Matthew Ziff   |260000                |
+|Kickboxer: Vengeance                 |Matthew Ziff   |260000                |
+|Feast                                |Krista Allen   |164000                |
+|The Final Destination                |Krista Allen   |164000                |
+|Quarantine                           |Andrew Fiscella|137000                |
+|Armored                              |Andrew Fiscella|137000                |
+|Poseidon                             |Jimmy Bennett  |87000                 |
+|Hostage                              |Jimmy Bennett  |87000                 |
++-------------------------------------+---------------+----------------------+
+only showing top 10 rows
