@@ -60,3 +60,13 @@ Objective in Spark SQL with Scala is:
 14. To determine the best movies according to user reviews.
 15. To determine the worst movies according to user reviews.
 
+# Spark Streaming:
+It is shown with Twitter Analysis.
+
+Objective in Spark Streaming with Twitter App is to determine:
+1. The Popular Topics in last 60 seconds.
+2. The Popular Topics in last 10 seconds.
+3. The Username & his/her Tweets.
+4. The Time at which the User Tweeted.
+5. The FriendsCount of User.
+6. The number of Tweets & Score of User.
